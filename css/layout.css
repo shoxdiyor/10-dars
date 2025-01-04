@@ -1,0 +1,39 @@
+.container2 {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  gap: 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-direction: row;
+}
+
+.content2 {
+  flex: 1;
+  order: 2;
+}
+
+.image-container2 {
+  flex: 1;
+  order: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .container2 {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2rem;
+  }
+
+  .content2 {
+    order: 2;
+  }
+
+  .image-container2 {
+    order: 1;
+  }
+}
